@@ -217,20 +217,20 @@
     	</div>
     	<div class="container">
     		<div class="row">
-				{% for item in its %}
+				{% for itm in item %}
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="{{baseUrl}}/{{item.img}}" alt="Colorlib Template">
-                {% if item.offer %}
+    					<a href="#" class="img-prod"><img class="img-fluid" src="{{itm.img.url}}" alt="Colorlib Template">
+                {% if itm.offer %}
                 <span class="status">30%</span>
                 {% endif %}
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
-    						<h3><a href="#">{{item.name}}</a></h3>
+    						<h3><a href="#">{{itm.name}}</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span class="mr-2 price-dc">{{item.price}}</span><span class="price-sale">$80.00</span></p>
+		    						<p class="price"><span class="price-sale">{{itm.price}}</span></p>
 		    					</div>
 	    					</div>
 	    					<div class="bottom-area d-flex px-3">
