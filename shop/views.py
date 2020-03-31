@@ -4,7 +4,7 @@ from . models import spices
 # Create your views here.
 
 
-def shop(request):
+def catspices(request):
     spice = spices.objects.all()
 
-    return render(request, "shop.html", {'spice': spice})
+    return render(request, "catspices.html", {'spice': spice})
