@@ -6,3 +6,5 @@ from . models import pulses
 
 admin.site.register(spices)
 admin.site.register(pulses)
+admin.site.register(oils)
+admin.site.register(vegs)
