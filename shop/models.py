@@ -12,3 +12,14 @@ class pulses(models.Model):
     img = models.ImageField(upload_to='pics')
     price = models.CharField(max_length=100)
     offer = models.BooleanField(default=False) 
+
+class oils(models.Model):
+    name = models.CharField(max_length=100)
+    img = models.ImageField(upload_to='pics')
+    price = models.CharField(max_length=100)
+    offer = models.BooleanField(default=False) 
+class vegs(models.Model):
+    name = models.CharField(max_length=100)
+    img = models.ImageField(upload_to='pics')
+    price = models.CharField(max_length=100)
+    offer = models.BooleanField(default=False) 
