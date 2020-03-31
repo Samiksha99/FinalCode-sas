@@ -1,2 +1,14 @@
-# Code_sas
-Our idea is to develop a website which can act as a channel between the government and its people for the most essential things i.e grocery and dairy products. Our portal is basically for the non-metro cities where mega grocery agents don't provide service. We will analyze and check day to day conditions and provide an interface in the form of our website which will allow the users to get and daily products at their door steps. It will also help in strong implementation of quarantine/lockdown as public will get the essentials at their doorsteps and in turn our delivery boy will be a trained person with protective clothing and thus making way for less public on roads which will prove to be a boon in fight against Covid-19. Using Django as the framework for backend, html,css and bootstrap for frontend and PostgreSQL database we will be creating a dynamic website to cope up with the harsh conditions due to covid-19.
+# Green's
+online grocery shopping during quarantine
+
+## Instructions to run the application on your local computer:
+- Clone this project using the command ```git clone https://github.com/Samiksha99/FinalCode-sas.git
+```.
+- Navigate to this directory using the command ```cd finalcode-sas```.
+- Install the required dependancies using the command ```pip install -r requirements.txt```.
+- Run the following command on the command line ```python manage.py runserver```.
+Running on http://127.0.0.1:5000/ (Press CTRL+BREAK to quit)
+Copy http://127.0.0.1:5000/ and open it in a browser.
+
+
+
