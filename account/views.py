@@ -3,6 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.models import User, auth
 
 # Create your views here.
+def login(request):
+
 def register(request):
 
     if request.method == 'POST':
