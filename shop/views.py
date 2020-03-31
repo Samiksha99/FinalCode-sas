@@ -13,4 +13,4 @@ def catspices(request):
 def catpulse(request):
     pulse = pulses.objects.all()
 
-    return render(request, "pulse.html", {'pulse': pulse})
+    return render(request, "catpulse.html", {'pulse': pulse})
