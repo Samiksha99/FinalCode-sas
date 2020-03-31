@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Spices</title>
+    <title>PulsesAndFlour</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -89,20 +89,20 @@
     <section class="ftco-section">
     	<div class="container">
     		
-    		{% for spec in spice %}
+    		{% for pul in pulse %}
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="{{spec.img.url}}" alt="Colorlib Template">
-                {% if spec.offer %}
+    					<a href="#" class="img-prod"><img class="img-fluid" src="{{pul.img.url}}" alt="Colorlib Template">
+                {% if pul.offer %}
                 <span class="status">30%</span>
                 {% endif %}
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
-    						<h3><a href="#">{{spec.name}}</a></h3>
+    						<h3><a href="#">{{pul.name}}</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span class="price-sale">{{spec.price}}</span></p>
+		    						<p class="price"><span class="price-sale">{{pul.price}}</span></p>
 		    					</div>
 	    					</div>
 	    					<div class="bottom-area d-flex px-3">
@@ -170,8 +170,8 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Vegefoods</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+              <h2 class="ftco-heading-2">Green's</h2>
+              <p>A Handful of Dough, A Heart-full Of Hope.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -223,9 +223,9 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p>
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+						 
 						</p>
           </div>
         </div>
